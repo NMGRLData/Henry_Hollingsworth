@@ -1,0 +1,66 @@
+{
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "collection_version": "0.1:0.1", 
+    "comment": "B:9 Alunite, 2.67 mg", 
+    "commit": "95fe245ee92329576931049626d9fc1d5dfab3d0", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "felix_diode.py", 
+    "identifier": "64190", 
+    "increment": 2, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-283", 
+    "irradiation_level": "B", 
+    "irradiation_position": 9, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)"
+        }, 
+        "Ar37": {
+            "detector": "L1"
+        }, 
+        "Ar38": {
+            "detector": "AX"
+        }, 
+        "Ar39": {
+            "detector": "H1"
+        }, 
+        "Ar40": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "felix", 
+    "material": "Alunite", 
+    "measurement": "felix_analysis400_120.py", 
+    "project": "Henry/Hollingsworth", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Henry_Hollingsworth", 
+    "sample": "DK star vein", 
+    "spec_sha": "f5bf3da4c0acf4a6eb7e30b93900b20ca090f3ba", 
+    "timestamp": "2016-05-18T19:19:00.576784", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "5659c30a-cd98-4b84-bc8d-8947d5b2b9cb"
+}
